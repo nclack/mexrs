@@ -8,7 +8,7 @@ Most mex functions will need to interact with Matlab's MX and MEX APIs to do any
 
 ## Wishlist
 
-* automatically located Matlab in `build.rs`
+* automatically locate Matlab in `build.rs`
 * automatically determine the mex extension.  Perhaps use a call to Matlab's `mexext` command.
 
 ## Details
