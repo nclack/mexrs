@@ -22,9 +22,3 @@ pub extern "C" fn mexFunction(nlhs: c_int,
         mexPrintf(b"Hello World.\n\0".as_ptr());
     }
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {}
-}
