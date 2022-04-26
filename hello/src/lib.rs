@@ -15,9 +15,9 @@ extern "C" {
 #[allow(unused_variables)]
 #[no_mangle]
 pub extern "C" fn mexFunction(nlhs: c_int,
-                              prhs: *mut *mut mxArray,
+                              plhs: *mut *mut mxArray,
                               nrhs: c_int,
-                              plhs: *mut *mut mxArray) {
+                              prhs: *mut *mut mxArray) {
     unsafe {
         mexPrintf(b"Hello World.\n\0".as_ptr());
     }
